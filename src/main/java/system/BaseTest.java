@@ -16,8 +16,8 @@ public class BaseTest {
             AppLauncher.startAppium();
         }
 
-      //  AppLauncher.installTheApp();
-      //  AppDriver.getReferenceOfDriver().quit();
+        AppLauncher.installTheApp();
+        AppDriver.getReferenceOfDriver().quit();
 
     }
 }
