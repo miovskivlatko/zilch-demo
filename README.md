@@ -67,6 +67,7 @@ mobilePlatform => default is android -> platfor(OS) on which mobile test will be
 appiumAutoRun => default is false -> if true appium will be started before test running
 envConfig => default is local -> in the resources.Configs there is configuration file that can be added and the test to run under that
 apiEnv => default is test -> based on this parameter rest API-s will run . Configuration implemented as enums
+remoteGitHub => github if runs on ci/cd pipeline
 
 #Techniques and approaches covered
 - OOP concepts (encapsulation, inheritence)
