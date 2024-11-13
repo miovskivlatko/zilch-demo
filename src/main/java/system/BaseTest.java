@@ -1,6 +1,5 @@
 package system;
 
-import driver.AppDriver;
 import driver.AppLauncher;
 import org.testng.annotations.*;
 
@@ -11,13 +10,9 @@ public class BaseTest {
 
 
     @BeforeTest
-    public void installApp() throws MalformedURLException {
+    public void installApp() {
         if (SysData.getAppiumAutoMode().equals("true")) {
             AppLauncher.startAppium();
         }
-
-      //  AppLauncher.installTheApp();
-      //  AppDriver.getReferenceOfDriver().quit();
-
     }
 }
