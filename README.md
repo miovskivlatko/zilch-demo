@@ -1,4 +1,4 @@
-# Demo Project for Zilch
+# Demo Project
 
 ## Description
 
